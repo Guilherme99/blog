@@ -1,9 +1,8 @@
 import { Header } from "./components/Header"
 import { Post } from "./components/Post"
-
-import './global.css'
 import styles from './app.module.css'
 import { Sidebar } from "./components/Sidebar"
+import './global.css'
 
 const Posts = [
   {
@@ -19,6 +18,7 @@ const Posts = [
     content:"Loren Sputas" 
   },
 ]
+
 export function App() {
   return (
     <>
